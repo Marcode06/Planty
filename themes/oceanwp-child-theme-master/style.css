@@ -537,7 +537,9 @@ h2.k2_lesgouts{
     background-size: 50%;
   }
 
-
+  .wp-block-uagb-container.uagb-block-df689d02{
+    padding-top: 0;
+  }
 
   .p_nous-rencontrer{
     padding-left: 235px !important;
@@ -561,6 +563,25 @@ h2.k2_lesgouts{
 @media only screen and (max-width: 959px) {
     .container-vert {
         /* padding-bottom: 20px; */
+    }
+
+    .wp-block-uagb-container.uagb-is-root-container .uagb-block-df689d02{
+        width: 95%;
+        background-size: 19%;
+    }
+
+    /* .wp-block-uagb-advanced-heading.uagb-block-87f8a3ff .uagb-heading-text{
+        font-size: 28px !important;
+    } */
+
+    .titre-nous-rencontrer h2{
+        font-size: 28px !important;
+    }
+
+    .p_nous-rencontrer{
+        padding-left: 18% !important;
+        padding-right: 18% !important;
+        line-height: 27px;
     }
 
     .centrer{
@@ -694,6 +715,16 @@ h2.k2_lesgouts{
 
 @media only screen and (max-width: 800px) {
 
+    /* .wp-block-uagb-container.uagb-is-root-container .uagb-block-df689d02{
+        width: 97%;
+    } */
+
+    /* .wp-block-uagb-advanced-heading.uagb-block-87f8a3ff .uagb-heading-text{
+        font-size: 15px !important;
+    } */
+
+    
+
     .titre-nous-rencontrer h2{
         font-size: 28px !important;
     }
@@ -736,6 +767,10 @@ h2.k2_lesgouts{
         max-width: 767px !important;
       }
 
+      .wp-block-uagb-container.uagb-is-root-container .uagb-block-df689d02{
+        background: none;
+      }
+
       .titre_les_gouts{
         padding-top: 40px;
     }
@@ -745,6 +780,12 @@ h2.k2_lesgouts{
         width: 100%;
         max-width: 300px;
      }
+
+     .container-fleur{
+        background: none !important;
+     }
+
+     
 
      /* .cta{
         width: 50% !important;
@@ -879,7 +920,7 @@ h2.k2_lesgouts{
     }
 
     .titre-nous-rencontrer h2{
-        font-size: 22px !important;
+        font-size: 24px !important;
     }
 
     /* ******************************************************************** */
@@ -909,7 +950,7 @@ h2.k2_lesgouts{
         padding-top: 50px !important;
         margin-bottom: 50px !important;
         /* color: red; */
-        font-size: 30px !important;
+        font-size: 26px !important;
     }
 
     .titre-votre-commande{
@@ -963,7 +1004,7 @@ h2.k2_lesgouts{
     @media only screen and (max-width: 406px) {    
 
         .titre-nous-rencontrer h2{
-            font-size: 22px !important;
+            font-size: 24px !important;
         }
 
         .wp-block-uagb-advanced-heading.uagb-block-d35a51a4 .uagb-heading-text {
@@ -1102,6 +1143,10 @@ h2.k2_lesgouts{
 
      .cta a{
         text-align: center !important;
+     }
+
+     .wp-block-uagb-container.uagb-is-root-container .uagb-block-579a8183{
+        width: 90%;
      }
 }
 
