@@ -29,12 +29,10 @@ Version: 1.0
 }
 
 #site-navigation-wrap .dropdown-menu li.coul_rencontrer a:hover{
-    /* background-color: #1d20b6 !important; */
     color: black !important;
     font-weight: 700 !important;
     font-size: 16px !important;
 }
-
 
 #admin-menu a:hover{
     color: black;
@@ -47,10 +45,8 @@ Version: 1.0
 }
 
 .wp-element-caption{
-    /* color: white !important; */
     font-size: 78px !important;
     line-height: 70px;
-    /* font-variant-caps: all-small-caps; */
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -66,7 +62,6 @@ Version: 1.0
     padding-bottom: 25px;
 }
 
-
 .wp-block-gallery img{
    padding: 12px;
 }
@@ -76,12 +71,7 @@ h2.k2_lesgouts{
     font-size: 48px !important;
 }
 
-.uagb-container-inner-blocks-wrap{
-    /* line-height: 0px; */
-}
-
 .titre_les_gouts{
-    /* color: red !important; */
     font-weight: 800 !important;
     padding-top: 90px;
     margin: auto;
@@ -89,9 +79,7 @@ h2.k2_lesgouts{
 }
 
 .les_gouts_p{
-    /* padding-bottom: 10px; */
     font-weight: 400 !important; 
-    /* line-height: 0px;    */
 }
 
 .is-style-fill{
@@ -134,7 +122,6 @@ h2.k2_lesgouts{
 
 .titre_article{
     margin: auto;
-    /* padding-top: 12px; */
     font-weight: 700 !important;
 }
 
@@ -172,7 +159,6 @@ h2.k2_lesgouts{
     background-color: white !important;
     padding: 12px !important;
     border-radius: 7px !important;
-    /* width: 100%; */
 }
 
 .wpcf7-submit {
@@ -197,7 +183,6 @@ h2.k2_lesgouts{
     width: 40%;
 }
 
-
 #wpcf7-f544-p1231-o1{
     background-color: rgb(180, 194, 241) !important;
 }
@@ -205,8 +190,6 @@ h2.k2_lesgouts{
 #wpcf7-f1234-p1231-o2{
     background-color: rgb(227, 247, 207) !important;
 }
-
-
 
 .wpcf7-form p{
     padding:0% !important;
@@ -227,11 +210,8 @@ h2.k2_lesgouts{
 .centrer{
     width: 860px !important;
     margin: 0 auto !important; /* Centrer le contenu */
-    /* background-color: rgb(255, 0, 0) !important; */
 }
 
-  
-  /* A garder */
   form #contact{
     display: flex;
     flex-direction: column;
@@ -241,22 +221,17 @@ h2.k2_lesgouts{
     color: black;
     font-weight: 400;
     font-size: 20px;
-    /* background-color: red; */
   }
-  
-
- 
+   
   .form-column {
     flex: 1;
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-    /* background-color: red; */
   }
   
   input,
   textarea {
-    /* padding: 15px; */
     padding: 20px 50px 20px 50px;
     border-radius: 7px;
     border: none;
@@ -266,19 +241,12 @@ h2.k2_lesgouts{
   label {
     margin-bottom: 10px !important;
   }
-  
-  /* input[type='submit'] {
-    width: 100%;
-    margin: auto;
-    margin-top: 30px;
-  } */
-  
+    
   .cta{
     display: inline-block;
     background: #E0B9B4 !important;
     color: rgb(255, 255, 255) !important;
     border-radius: 5px;
-    /* padding: 16px 30px; */
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin: auto !important;
@@ -292,14 +260,7 @@ h2.k2_lesgouts{
     background: #C02E44 !important;
     text-decoration: none;
   } 
-
-  /* input[type='submit'] {
-    color: red !important;
-    text-align: auto !important;
-    padding: 0 !important;
-  } */
   
-
 /* -------------------------------SUITE FORMULAIRE NOUS RENCONTRER------------------------------------ */  
 
 .formulaire-contact #nom, #email, #message{
@@ -315,8 +276,7 @@ h2.k2_lesgouts{
  .formulaire-contact #message{
      background-color: white !important;
      border: none;
-     height: 200px;
-   
+     height: 200px;  
   }
  
   .formulaire-contact{
@@ -339,7 +299,6 @@ h2.k2_lesgouts{
     margin: 10px;
     text-align: center;
     position: relative; 
-    /* Ajout */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -347,7 +306,6 @@ h2.k2_lesgouts{
 
 .photos img {
     max-width: 100%;
-    /* max-width: 80%; */
 }
 
 .quantite {
@@ -361,25 +319,6 @@ h2.k2_lesgouts{
     padding: 0px !important;
 }
 
-/* .texte {
-    position: absolute;
-    color: white;    
-    padding-top: 100px;
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 54px;
-} */
-
-/*avant der .texte {
-    position: absolute;
-    color: white;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 48px;
-    font-weight: 800;
-    line-height: 54px;
-} */
 
 .texte {
     position: absolute;
@@ -393,9 +332,7 @@ h2.k2_lesgouts{
 }
 
 
-
 .titre-commander{
-    /* margin-top: 80px; */
     margin-bottom: 50px;
     padding-top: 50px;
     color: white ;
@@ -413,43 +350,24 @@ h2.k2_lesgouts{
 }
 
 
-/* .titre-votre-commande {
-    text-align: left;
-    margin-left: 7%;
-    font-size: 30px;
-    font-weight: 700;
-    color: white ;
-    background-color: rgb(0, 255, 255);
-} *******************************************************************************************************************************/
-
-
 .titre-votre-commande {
     text-align: left;
-    /* margin-left: 1%; */
     padding-left: 10px;
     font-size: 30px;
     font-weight: 700;
     color: white ;
-    /* background-color: red; */
 }
 
 
 
 .vos-infos-livraison {
     display: flex;
-    /* background-color: red; */
     height: 100%;
     justify-content: center;
     align-items: center;
     padding-top: 15px;
 }
 
-/* .vos-info, .livraison {
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: blue;
-} */
 
 .vos-info{
   color: white;
@@ -484,8 +402,6 @@ h2.k2_lesgouts{
 }
 
 .bouton input{
-    /* width: 155px; */
-    /* height: 40px; */
     background-color: #E0B9B4 !important;
     color: white;
     border: none;
@@ -532,7 +448,6 @@ h2.k2_lesgouts{
     background-image: url("../../uploads/2024/04/feuilles-gauche-1.png"), 
     url("../../uploads/2024/04/feuilles-droite-1.png");
     background-repeat: no-repeat, no-repeat;
-    /* background-position: left center, right center; */
     background-position: 0% 50%, 100% 50%;
     background-size: 50%;
   }
@@ -555,24 +470,14 @@ h2.k2_lesgouts{
 
 /* ---------------------------Media Query------------------------------ */
 
-/* Ajoutez ces Media Queries à la fin de votre fichier CSS */
-
-
-
 /* Pour les tablettes */
 @media only screen and (max-width: 959px) {
-    .container-vert {
-        /* padding-bottom: 20px; */
-    }
 
     .wp-block-uagb-container.uagb-is-root-container .uagb-block-df689d02{
         width: 95%;
         background-size: 19%;
     }
 
-    /* .wp-block-uagb-advanced-heading.uagb-block-87f8a3ff .uagb-heading-text{
-        font-size: 28px !important;
-    } */
 
     .titre-nous-rencontrer h2{
         font-size: 28px !important;
@@ -597,21 +502,10 @@ h2.k2_lesgouts{
         width: 100%;
     }
 
-    .bouton input {
-        /* width: 100%; */
-    }
 
     .form-commander #nom_comm, #prenom_comm, #email_comm, #adresse_comm, #code-postal_comm, #ville_comm {
-    /* padding-left: 71px; */
-    /* padding: 2% 4% 2% 5%; */
     padding: 20px 50px 20px 50px;
     }
-
-    /* A supprimer */
-    /* .form-commander input[type="text"] {
-
-        color: aqua !important;
-    } */
 
 
     .formulaire-contact #nom, #email, #message{               
@@ -636,23 +530,17 @@ h2.k2_lesgouts{
 
     .les_gouts_p{
         font-size: 18px !important;
-        margin: 0px !important;
-        /* line-height: 0px;   */
-        /* margin-top: 10px; */
-        
+        margin: 0px !important;        
     }
 
 
     .titre-equipe h2{
-        /* color: red !important; */
         margin-top: 15px !important;
     }
 
     .photo-canette img{
         display: flex;
         justify-content: center;
-        /* background-color: #c02e44; */
-        /* width: 70%; */
     }
 
     .oceanwp-mobile-menu-icon a:first-child{
@@ -685,45 +573,14 @@ h2.k2_lesgouts{
         margin: auto;
     }
 
-    /* ********************************************************* */
-    .vos-info{
-        /* padding-right: 20px; */
-    }
-    .livraison{
-        /* padding-left: 20px; */
-    }
 
     .taille-champs input{
-        /* width: 325px !important; */
         width: 100% !important;
-        /* max-width: 325px !important; */
     }
-
-    .bouton input{
-        /* width: 25%;
-        height: 10% !important; */
-        /* background-color: red !important;
-        text-align: center !important; */
-    }
-
-    .bouton input.envoi-form{
-        /* height: 10px !important; */
-    }
-
 
 }
 
 @media only screen and (max-width: 800px) {
-
-    /* .wp-block-uagb-container.uagb-is-root-container .uagb-block-df689d02{
-        width: 97%;
-    } */
-
-    /* .wp-block-uagb-advanced-heading.uagb-block-87f8a3ff .uagb-heading-text{
-        font-size: 15px !important;
-    } */
-
-    
 
     .titre-nous-rencontrer h2{
         font-size: 28px !important;
@@ -733,13 +590,8 @@ h2.k2_lesgouts{
         font-size: 18px !important;
     }
 
-    .les_gouts_p{
-        /* padding-top: 10px; */
-        /* line-height: 0px;   */
-    }
 
     .centrer{
-        /* width: 800px !important; */
         width: 100% !important;
         max-width: 800px !important;
       }
@@ -748,10 +600,6 @@ h2.k2_lesgouts{
         margin: 0 auto;
         margin-bottom: 20px;
       }
-
-      /* .cta{
-        width: 50% !important;
-      } */
 
 }
 
@@ -762,7 +610,6 @@ h2.k2_lesgouts{
     }
 
     .centrer{
-        /* width: 767px !important; */
         width: 100% !important;
         max-width: 767px !important;
       }
@@ -784,13 +631,6 @@ h2.k2_lesgouts{
      .container-fleur{
         background: none !important;
      }
-
-     
-
-     /* .cta{
-        width: 50% !important;
-     } */
-
 }
 
 @media only screen and (max-width: 677px) {    
@@ -801,24 +641,16 @@ h2.k2_lesgouts{
       }    
 
       .taille-champs input{
-        /* width: 325px !important; */
         width: 100% !important;
-
+    }
+    
+    .vos-info{
+         padding-right: 2% !important;
     }
 
-    /* .form-commander #nom_comm, #prenom_comm, #email_comm, #adresse_comm, #code-postal_comm, #ville_comm {
-        background-color: red !important;   
-            
-        } */
-    
-/* ---------------------------------------------------------------- */
-        .vos-info{
-            padding-right: 2% !important;
-        }
-
-        .livraison{
-            padding-left: 2% !important;
-        }
+    .livraison{
+        padding-left: 2% !important;
+    }
 }
 
 @media only screen and (max-width: 573px) {
@@ -828,7 +660,6 @@ h2.k2_lesgouts{
       }
 
       .centrer{
-        /* width: 573px !important; */
         width: 100% !important;
         max-width: 573px !important;
       }
@@ -842,7 +673,6 @@ h2.k2_lesgouts{
     .container-fleur{
         background-image: none !important;
         background-size: 15% !important;
-        /* background-position: 50% 0% !important; */
         padding-top: 50px !important;
     }
 
@@ -854,7 +684,6 @@ h2.k2_lesgouts{
         font-size: 16px !important;
         padding-left: 10% !important;
         padding-right: 10% !important;
-        /* background-color: red; */
     }
 
     .oceanwp-mobile-menu-icon a:first-child{
@@ -870,14 +699,12 @@ h2.k2_lesgouts{
     .titre-commander{
         padding-top: 50px !important;
         margin-bottom: 50px !important;
-        /* color: red; */
         font-size: 30px !important;
     }
 
     .vos-infos-livraison{
         flex-wrap: wrap;
     }
-
 
     .vos-info{
         border-right: none !important;
@@ -890,10 +717,8 @@ h2.k2_lesgouts{
     }
 
     .les_gouts_p{
-        /* padding-top: 10px; */
         padding-left: 60px;
         padding-right: 60px;
-        /* line-height: 0px;   */
     }    
 }
 
@@ -907,13 +732,10 @@ h2.k2_lesgouts{
     .photo-canette img{
         display: flex;
         justify-content: center;
-        /* background-color: #c02e44; */
         background-position: 10% 50%, 90% 50%;
-        /* width: 30%; */
     }
 
     .container-fleur{
-        /* background-image: none !important; */
         background-size: 15% !important;
         background-position: 50% 0% !important;
         padding-top: 50px !important;
@@ -923,7 +745,6 @@ h2.k2_lesgouts{
         font-size: 24px !important;
     }
 
-    /* ******************************************************************** */
     .uagb-team__content{
         padding-left: 60px !important;
         padding-right: 60px !important;
@@ -934,14 +755,12 @@ h2.k2_lesgouts{
     }
 
     .les_gouts_p{
-        /* padding-top: 10px; */
         padding-left: 60px;
         padding-right: 60px;
         line-height: 25px;  
     }
 
     .centrer{
-        /* width: 480px !important; */
         width: 100% !important;
         max-width: 480px !important;
       }
@@ -949,7 +768,6 @@ h2.k2_lesgouts{
       .titre-commander{
         padding-top: 50px !important;
         margin-bottom: 50px !important;
-        /* color: red; */
         font-size: 26px !important;
     }
 
@@ -993,12 +811,6 @@ h2.k2_lesgouts{
         max-width: 300px !important;
         margin: auto !important;
      }
-
-     /* .cta{
-        width: 50% !important;
-        max-width: 100% !important;
-     } */
-
 }
 
     @media only screen and (max-width: 406px) {    
@@ -1012,18 +824,13 @@ h2.k2_lesgouts{
           } 
 
 
-          .photo-canette img{
+        .photo-canette img{
         padding: 0px 94px !important;
         }
 
         .p_energie{
-            /* font-size: 16px !important; */
-            max-width: 235px !important;
+        max-width: 235px !important;
         }
-
-        /* .cta{
-            width: 60% !important;
-        } */
           
 }
 
@@ -1039,7 +846,6 @@ h2.k2_lesgouts{
       }
     
     .centrer{
-        /* width: 320px !important; */
         width: 100% !important;
         max-width: 320px !important;
     }
@@ -1073,7 +879,6 @@ h2.k2_lesgouts{
     .titre-commander{
         padding-top: 30px !important;
         margin-bottom: 25px !important;
-        /* color: red; */
         font-size: 20px !important;
 }
 
@@ -1110,13 +915,7 @@ h2.k2_lesgouts{
         height: 50px;
         margin-top: 5px;
         margin-bottom: 5px;
-        /* background-color: red !important; */
     }
-
-
-    /* .form-commander #nom_comm, #prenom_comm, #email_comm, #adresse_comm, #code-postal_comm, #ville_comm {
-        padding: 20px 50px 20px 50px;
-        } */
 
 
     label {
@@ -1127,19 +926,12 @@ h2.k2_lesgouts{
         padding-right: 0px;
       }
 
-    .bouton input{
-        /* width: 155px; */
-    }
 
     .formulaire-contact #nom, #email, #message{               
         height: 50px;
         width: 100% !important;
         max-width: 300px !important;
      }
-
-     /* .cta{
-        width: 100% !important;
-     } */
 
      .cta a{
         text-align: center !important;
