@@ -452,6 +452,52 @@ h2.k2_lesgouts{
     background-size: 50%;
   }
 
+/* .feuille_de_gauche{
+    transform: translateX(241px);
+}
+
+.feuille_de_droite{
+    transform: translateX(-241px);
+} */
+
+.container_canette {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.feuille_de_gauche, .canette, .feuille_de_droite {
+    width: 20%; /* Largeur en pourcentage pour la responsivité */
+    height: 40%; /* Hauteur en pourcentage pour la responsivité */
+    background-size: cover; /* S'assurer que l'image couvre le conteneur */
+    background-position: center; /* Centrer l'image */
+}
+
+.feuille_de_gauche {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(20%); /* Ajustez pour placer la feuille */
+}
+
+.canette {
+    z-index: 2;
+}
+
+.feuille_de_droite {
+    z-index: 1;
+    position: absolute;
+    right: 50%;
+    transform: translateX(-20%); /* Ajustez pour placer la feuille */
+}
+
+
+
+
+
+
+
   .wp-block-uagb-container.uagb-block-df689d02{
     padding-top: 0;
   }
@@ -477,6 +523,16 @@ h2.k2_lesgouts{
         width: 95%;
         background-size: 19%;
     }
+
+    /* .feuille_de_gauche{
+        display: flex;
+        justify-content: center ;
+    }
+    
+    .feuille_de_droite{
+        display: flex;
+        justify-content: center ;
+    } */
 
 
     .titre-nous-rencontrer h2{
@@ -600,7 +656,7 @@ h2.k2_lesgouts{
         margin: 0 auto;
         margin-bottom: 20px;
       }
-
+           
 }
 
 @media only screen and (max-width: 767px) {
@@ -631,6 +687,42 @@ h2.k2_lesgouts{
      .container-fleur{
         background: none !important;
      }
+
+
+     /* .container {
+        flex-direction: column;
+        justify-content: space-around;
+    } */
+
+    /* .feuille_de_gauche, .canette, .feuille_de_droite {
+        position: static;
+        transform: none;
+        width: 40% !important;
+        height: 40% !important;
+    } */
+
+    .container_canette{
+        height: 500px !important;
+    }
+
+    .feuille_de_gauche {
+        z-index: 1;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-70%) translateY(140%);
+    }
+
+    .canette_millieu {
+        z-index: 2;
+    }
+    
+    .feuille_de_droite {
+        z-index: 1;
+        position: absolute;
+        right: 50%;
+        transform: translateX(70%) translateY(-140%);
+    }
+
 }
 
 @media only screen and (max-width: 677px) {    
@@ -811,6 +903,25 @@ h2.k2_lesgouts{
         max-width: 300px !important;
         margin: auto !important;
      }
+
+     .feuille_de_gauche {
+        width: 50% !important; 
+        position: absolute;
+        left: 50%;
+        transform: translateX(-145%) translateY(140%);       
+    }   
+
+     .canette_millieu{
+        width: 40% !important;
+    }
+
+    .feuille_de_droite{
+        width: 50% !important;  
+        position: absolute;
+        right: 50%;
+        transform: translateX(145%) translateY(-140%);
+    }
+
 }
 
     @media only screen and (max-width: 406px) {    
@@ -830,6 +941,25 @@ h2.k2_lesgouts{
 
         .p_energie{
         max-width: 235px !important;
+        }
+
+
+        .feuille_de_gauche {
+            width: 50% !important; 
+            position: absolute;
+            left: 50%;
+            transform: translateX(-145%) translateY(140%);       
+        }   
+    
+         .canette_millieu{
+            width: 40% !important;
+        }
+    
+        .feuille_de_droite{
+            width: 50% !important;  
+            position: absolute;
+            right: 50%;
+            transform: translateX(145%) translateY(-150%);
         }
           
 }
@@ -940,6 +1070,29 @@ h2.k2_lesgouts{
      .wp-block-uagb-container.uagb-is-root-container .uagb-block-579a8183{
         width: 90%;
      }
+
+    .feuille_de_gauche {
+        width: 50% !important; 
+        position: absolute;
+        left: 50%;
+        transform: translateX(-145%) translateY(140%);       
+    }   
+
+    .canette_millieu{
+        width: 40% !important;
+    }
+
+    .feuille_de_droite{
+        width: 50% !important;  
+        position: absolute;
+        right: 50%;
+        transform: translateX(145%) translateY(-165%);
+    }
+
+    .container_canette{
+        height: 300px !important;
+    }
+    
 }
 
 
